@@ -1,0 +1,37 @@
+[4.672s] Invoking command in '/home/danya-ahmed/ros1_ws/src/my_python_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_python_pkg build --build-base /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build install --record /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[4.936s] running egg_info
+[4.936s] creating build/my_python_pkg/my_python_pkg.egg-info
+[4.954s] writing build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[4.954s] writing dependency_links to build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[4.954s] writing entry points to build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[4.954s] writing requirements to build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[4.954s] writing top-level names to build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[4.954s] writing manifest file 'build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[4.990s] reading manifest file 'build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[4.990s] writing manifest file 'build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[4.990s] running build
+[4.991s] running build_py
+[4.991s] creating /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build
+[4.991s] creating /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build/lib
+[4.991s] creating /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build/lib/my_python_pkg
+[4.991s] copying my_python_pkg/__init__.py -> /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build/lib/my_python_pkg
+[4.991s] copying my_python_pkg/Task5_1.py -> /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build/lib/my_python_pkg
+[4.991s] running install
+[4.997s] running install_lib
+[5.015s] creating /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg
+[5.015s] copying /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build/lib/my_python_pkg/__init__.py -> /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg
+[5.015s] copying /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build/lib/my_python_pkg/Task5_1.py -> /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg
+[5.015s] byte-compiling /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg/__init__.py to __init__.cpython-312.pyc
+[5.015s] byte-compiling /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg/Task5_1.py to Task5_1.cpython-312.pyc
+[5.016s] running install_data
+[5.016s] creating /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/share/ament_index
+[5.016s] creating /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/share/ament_index/resource_index
+[5.016s] creating /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/share/ament_index/resource_index/packages
+[5.016s] copying resource/my_python_pkg -> /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/share/ament_index/resource_index/packages
+[5.016s] copying package.xml -> /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/share/my_python_pkg
+[5.017s] running install_egg_info
+[5.037s] Copying build/my_python_pkg/my_python_pkg.egg-info to /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg-0.0.0-py3.12.egg-info
+[5.037s] running install_scripts
+[5.160s] Installing Task5_1 script to /home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/my_python_pkg
+[5.160s] writing list of installed files to '/home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/install.log'
+[5.185s] Invoked command in '/home/danya-ahmed/ros1_ws/src/my_python_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danya-ahmed/ros1_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_python_pkg build --build-base /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/build install --record /home/danya-ahmed/ros1_ws/src/my_python_pkg/build/my_python_pkg/install.log --single-version-externally-managed install_data

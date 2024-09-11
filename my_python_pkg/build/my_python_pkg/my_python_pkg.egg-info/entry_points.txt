@@ -1,0 +1,2 @@
+[console_scripts]
+Task5_1 = my_python_pkg.Task5_1:main
